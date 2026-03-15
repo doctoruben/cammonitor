@@ -1,0 +1,22 @@
+name: cammonitor
+description: Monitor de cámaras IP - 4 cámaras RTSP simultáneas
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_vlc_player: ^7.4.1
+  shared_preferences: ^2.2.2
+  wakelock_plus: ^1.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
