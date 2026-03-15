@@ -33,9 +33,6 @@ class _CameraFullscreenState extends State<CameraFullscreen> {
         advanced: VlcAdvancedOptions([
           VlcAdvancedOptions.networkCaching(2000),
         ]),
-        rtp: VlcRtpOptions([
-          VlcRtpOptions.rtpOverTcp(true),
-        ]),
       ),
     );
   }
