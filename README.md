@@ -1,4 +1,4 @@
-# CamMonitor — App Android para cámaras JOOAN/cam720
+# CamMonitor — App Android para cámaras JOOAN/cam720.
 
 App Flutter para ver tus 4 cámaras IP simultáneamente vía RTSP.
 
