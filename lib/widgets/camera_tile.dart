@@ -58,10 +58,7 @@ class _CameraTileState extends State<CameraTile> {
       options: VlcPlayerOptions(
         advanced: VlcAdvancedOptions([
           VlcAdvancedOptions.networkCaching(2000),
-        ]),
-        rtp: VlcRtpOptions([
-          VlcRtpOptions.rtpOverTcp(true),
-        ]),
+       ]),
       ),
     );
 
